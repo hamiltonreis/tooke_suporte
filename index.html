@@ -1,13 +1,31 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <script>
-    // Required:
-    window.LIVECHAT_CHANNEL_UUID = 'd992ac22-36cb-4604-b770-d2041d048637';
-    // Optional, with defaults values:
-    window.TOOKE_API_PUBLIC_URL = 'https://app.tooke.chat';
-  </script>
-  <script defer src="https://tooke-widgets.s3.us-east-1.amazonaws.com/tooke-live-chat.min.js" ></script>
+    <script>
+      window.TOOKE_API_PUBLIC_URL = 'https://app.tooke.chat';
+      window.LIVECHAT_CHANNEL_UUID = '15d2935a-1243-4a9c-9f84-81e983c331ce';
+      window.LIVECHAT_AVATAR_ICON_WIDTH = 60
+      window.LIVECHAT_AVATAR_ICON = 'https://www.svgrepo.com/download/134581/whatsapp.svg';
+      window.LIVECHAT_AVATAR_ICON_HEIGHT = 60
+      window.LIVECHAT_TITLE = 'Bot do Tooke'
+      window.LIVECHAT_BACKGROUND_URL = 'https://i.pinimg.com/736x/8c/98/99/8c98994518b575bfd8c949e91d20548b.jpg'
+    </script>
+
+    <style>
+      :root {
+        --livechat-primary: #00bdd4;
+        --livechat-primary-light: #e6f8fb;
+        --livechat-primary-dark: #0096a9;
+        --livechat-secondary: #696667;
+        --livechat-secondary-light: #e9e9e9;
+        --livechat-link: #0096a9;
+        --livechat-negative: #fe604f;
+        --livechat-avatar-background: transparent;
+        --livechat-avatar-background-hover: transparent;
+      }
+    </style>
+
+    <script defer src="https://tooke-widgets.s3.us-east-1.amazonaws.com/tooke-live-chat.min.js"></script>
 </head>
 <body>
 </body>
